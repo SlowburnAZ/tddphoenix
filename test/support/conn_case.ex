@@ -21,6 +21,7 @@ defmodule ChatterWeb.ConnCase do
     quote do
       # Import conveniences for testing with connections
       use Phoenix.ConnTest
+      import Chatter.Factory
       alias ChatterWeb.Router.Helpers, as: Routes
 
       # The default endpoint for testing
