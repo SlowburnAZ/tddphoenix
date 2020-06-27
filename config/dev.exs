@@ -3,7 +3,7 @@ use Mix.Config
 # Configure your database
 config :chatter, Chatter.Repo,
   username: "postgres",
-  password: "F44u5t55!",
+  password: "F4u5t55!",
   database: "chatter_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
