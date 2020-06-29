@@ -6,6 +6,7 @@ defmodule ChatterWeb.ChatRoomChannel do
   end
 
   def handle_in("new_message", payload, socket) do
+    IO.puts("HANDLE_IN...")
     broadcast(socket, "new_message", payload)
     {:noreply, socket}
   end
